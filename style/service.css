@@ -1,0 +1,54 @@
+.services-sec h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.services-sec .col-md-8 p {
+    font-size: 1rem;
+}
+
+.services-sec ion-icon {
+    font-size: 3.8rem;
+    --ionicon-stroke-width: 16px;
+}
+
+.services-sec h4 {
+    text-transform: uppercase;
+
+}
+
+.services-sec .col-md-4:nth-child(1) {
+    color: white;
+    background-color: #28ABE3;
+}
+
+.services-sec .col-md-4:nth-child(3) {
+    color: white;
+    background-color: #28ABE3;
+}
+
+.services-sec .col-md-4:nth-child(5) {
+    color: white;
+    background-color: #28ABE3;
+}
+
+/*  SKILL SECTION  */
+.skill-sec h2{
+    font-weight: 600;
+}
+.skill-sec p{
+    font-size: 1rem;
+}
+.skill-sec label{
+    font-size: 0.9rem;
+    text-transform: capitalize;
+
+}
+.skill-sec .progress
+{
+    height: 0.65rem;
+}
+.skill-sec .progress-bar{
+    background-color: #28ABE3;
+}

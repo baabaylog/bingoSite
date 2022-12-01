@@ -1,0 +1,66 @@
+.line{
+    width: 5rem;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+.contact-sec form input,
+.contact-sec form textarea{
+    border-radius: 0;
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    padding: 0.55rem 0.3rem;
+}
+.contact-sec form input:hover,
+.contact-sec form textarea:hover{
+    outline: 1px solid #28ABE3;
+
+}
+.contact-sec form .form-control:focus{
+   outline: invert;
+   box-shadow: none;
+   border: 1px solid #28ABE3;
+    
+}
+.contact-sec form input::placeholder,
+.contact-sec form textarea::placeholder
+{
+    font-size: 0.9rem;
+    color: rgb(128, 128, 128);
+    letter-spacing: -0.31px;
+}
+
+.submitbtn{
+    width: 100%;
+    border: 1px solid #28ABE3;
+    background-color: #28ABE3;
+    color: whitesmoke;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    
+
+}
+.contact-sec .address ul{
+    padding-left: 0;
+
+}
+.contact-sec .address ul li ion-icon{
+    font-size: 0.85rem;
+}
+.contact-sec .address ul li span{
+    font-size: 0.94rem;
+    font-weight: 400;
+}
+
+.address .social{
+    display: flex;
+    justify-content: space-between;
+    max-width: 43%;
+}
+.contact-sec .address .social li ion-icon{
+    --ionicon-stroke-width: 20px;
+    transition: all 0.3s ease-in;
+}
+
+.contact-sec .address .social li ion-icon:hover{
+    background-color: #28ABE3;
+    color: white;
+}

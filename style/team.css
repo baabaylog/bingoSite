@@ -1,0 +1,25 @@
+.line{
+    width: 5rem;
+    height: 2px;
+    background-color: rgba(100, 100, 100, 0.151);
+}
+
+
+.about-sec ul{
+   margin-left: 0;
+   padding-left: 0;
+}
+.about-sec ul li{
+    display: inline-block;
+    width: 48%;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.589);
+    text-transform: capitalize;
+}
+.about-sec ul li ion-icon{
+    color: #28ABE3;
+    display: inline-block;
+    margin-bottom: -3px;
+}

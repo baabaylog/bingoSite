@@ -1,0 +1,38 @@
+.pricing-sec {
+    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.589)), url(../img/pricing-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.line {
+    width: 5rem;
+    height: 2px;
+    background-color: rgba(201, 201, 201, 0.822);
+}
+.pricing-sec .pricing{
+    background-color: white;
+}
+.pricing .header h1{
+    color: #28ABE3;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.pricing .body ul{
+    padding-left: 0;
+    margin-left: 0;
+}
+.pricing .body ul li{
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 0.95rem;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.pricing .body ul li ion-icon{
+    
+    padding-right: 3px;
+    display: inline-block;
+    margin-bottom: -3px;
+    
+}

@@ -1,0 +1,189 @@
+.line {
+    width: 5rem;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.295);
+}
+
+.work-sec h1 {
+    font-size: 2.2rem;
+}
+
+.work-sec ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.work-sec .pbtn {
+    background-color: #28ABE3;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    margin: 5px;
+    border: none;
+    font-size: 0.9rem;
+
+}
+
+.work-sec .product {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.work-sec .item {
+    width: 300px;
+    height: 18rem;
+    margin: 15px;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.item .text {
+    transition: all 0.9s ease;
+    display: none;
+}
+
+
+@keyframes port {
+    0% {
+        transform: translate3d(0, -10px, 0);
+        background-color: #28abe32a;
+    }
+
+    50% {
+        transform: translate3d(0, -5px, 0);
+        background-color: #28abe36b;
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+
+    }
+
+}
+
+.item .text ion-icon,
+.item .text h5 {
+    display: block;
+    color: white;
+    transition: all 0.3s linear;
+    animation: port 0.1s ease-in;
+}
+
+.item .text ion-icon {
+    margin-bottom: 10px;
+    color: white;
+    background-color: #28ABE3;
+    padding: 15px;
+    --ionicon-stroke-width: 60px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.item:hover .text {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* java script classes */
+.work-sec .active {
+    display: block;
+}
+
+.work-sec .hide {
+    display: none;
+}
+
+/* POP UP SECTION  */
+.popup {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    /* display: none; */
+    visibility: hidden;
+}
+
+.popupUnder {
+    background-color: rgba(0, 0, 0, 0.89);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.imgcontain {
+    max-height: 33rem;
+    border: 5px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    /* background-color: red; */
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+    
+}
+
+
+.popupUnder .close {
+    position: fixed;
+    cursor: pointer;
+    display: block;
+}
+.imgcontain .slides{
+    width: 111%;
+    height: 100%;
+    z-index: 12;
+}
+.imgcontain .slides .slide{
+    height: 100%;
+    width: 100%;
+    z-index: 14;
+}
+/*  My Own CSS included in slick slider after */
+.a-left,
+.a-right{
+    position: absolute;
+    top: 45%;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 15px rgb(0, 0, 0);
+    z-index: 200;
+    font-size: 2.6rem;
+}
+.a-left{
+    left: 1%;
+}
+.a-right{
+    right: 14%;
+    
+}

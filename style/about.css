@@ -1,0 +1,104 @@
+.mission-vision-sec p {
+    font-size: 1rem;
+    margin: 0.6rem 0rem 2.3rem 0;
+}
+
+/* PROMO VIDEO SECTION  */
+.line {
+    width: 5rem;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.432);
+    margin: 1rem 0;
+}
+
+/* CALL SECTION  */
+.call-sec {
+    background: url(../img/call-to-action-bg.jpg) center center/cover no-repeat;
+    margin: 2rem 0;
+    padding: 6rem 0;
+}
+
+.call-sec .col-md-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-sec h2 {
+    color: whitesmoke;
+    z-index: 22;
+}
+
+/* TEAM SECTION */
+.team-sec {
+    background: #F6F6F6;
+}
+.team-sec .card h5 {
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+}
+
+.team-sec .card small {
+    font-size: 0.8rem;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.team-sec .card p {
+    font-size: 0.95rem;
+}
+
+.team-sec .card {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.team-sec .card .img {
+    overflow: hidden;
+    position: relative;
+
+}
+
+.team-sec .card .img img {
+    object-fit: cover;
+    transition: all 0.4s ease;
+    border-radius: 0;
+}
+
+.team-sec .card .img:hover > img{
+    transform: scale(1.07);
+}
+
+.social-links {
+    position: absolute;
+    bottom: -90px;
+    left: 0%;
+    width: 100%;
+    background: rgba(40, 171, 227, 0.7);
+    /* padding: 1.1rem 0; */
+    transition: all 0.4s ease;
+}
+.social-links:hover{
+    bottom: 0;
+}
+.img:hover > .social-links {
+bottom: 0;
+}
+
+.img .social-links .icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.img .social-links .icons ion-icon {
+    font-size: 1.35rem;
+    /* padding: .45rem; */
+    border: 1px solid white;
+    border-radius: 3px;
+    margin:0.2rem;
+    color: white;
+}
